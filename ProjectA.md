@@ -1,6 +1,6 @@
 # Goal 
 
-Setup an application stack with automated build, tests , deployment and integration.
+Continuous Integration and Delivery of a web application.
 
 # Acceptence Criteria
 
@@ -15,19 +15,21 @@ Setup an application stack with automated build, tests , deployment and integrat
 
 2. Redeploy the webapp on port 8080.
 
-3. Configure and Connect the application to a back database server.
+3. Configure and Connect the application to a database server(open choice).
+
+4. Run Tests to validate all of the above.
 
 
 # Techstack/Tool Choice:
 
-1. Server Stack: Any virtualized platform -  Virtualbox/VMware/AWS/Openshift
+1. Platform: Openshift/Kubernetes/AWS or any PaaS 
 
-2. Operating System: Linux (Redhat/Centos/Ubuntu)
+2. Operating System: Redhat/Centos
 
-3. Webserver: Apache/Nginx/LAMP/Tomcat etc
+3. Webserver: Apache/Nginx/LAMP/Tomcat 
 
 4. CI: Jenkins/Go-cd
 
-5. Build Tool: Docker/MVN/NPM
+5. Build Tool: Docker/Maven/NPM
 
 5. Configuration Management: Ansible/Chef/Shell
